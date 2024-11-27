@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="./images/haze.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap" rel="stylesheet">
+    <title>Weather</title>
+</head>
+<body>
+    <div class="container search-container">
+        <div class="search-bar">
+            <input type="search" placeholder="Enter City" id="inp">
+            <div class="search-icon">
+                <button onclick="readData()">
+                    <img src="./images/loupe.png" alt="">
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="container main-container" id="weather">
+            <div class="card">
+               <div class="row">
+                <div class="col SectionLeft">
+                    <h1 class="heading">Weather in <span id="city">Nagpur</span></h1>
+                    <img src="./images/haze.png" alt=""><br>
+                    <h3 class="temp">Temperature: <span id="temp">38°C</span></h3>
+                    <h3 class="feels">Feels Like: <span id="feels">41°C</span></h3>
+                    <p id="haze" class="haze">Haze</p>
+                    <h4 class="humidity">Humidity: <span id="humidity">70%</span></h4>
+                    <h3 class="speed">Wind Speed: <span id="speed">3.0 km/h</span></h3>
+                </div>
+               </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
