@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-image: url(./images/bg-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    scroll-behavior: smooth; 
+    box-sizing: border-box;
+}
+
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-container{
+    display: flex;
+    justify-content: center;
+}
+
+.search-bar{
+    background-color: rgba(0, 0, 0, 0.432);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+    height: 75px;
+    border-radius: 20px;
+}
+
+#inp{
+    padding: 10px 25px;
+    font-size: 18px;
+    width: 80%;
+    background-color: rgb(255, 255, 255);
+    outline: none;
+    border: 4px solid rgba(53, 53, 53, 0.712);
+    border-radius: 50px;
+    height: 50px;
+}
+button{
+    background: none;
+    background-color: aliceblue;
+    outline: none;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+
+.card{
+    width: 28%;
+    background-color: rgba(0, 0, 0, 0.795);
+    height: 45vh;
+    color: white;
+    padding: 25px 15px;
+    margin: 25px 15px;
+    border-radius: 5%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.SectionLeft{
+    padding: 20px 1opx;
+}
+
+.heading, .temp, .feels, .haze, .humidity, .speed{
+    padding-top: 10px;
+}
